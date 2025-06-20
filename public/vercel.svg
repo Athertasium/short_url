@@ -1,1 +1,18 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000"><path d="m577.3 0 577.4 1000H0z" fill="#fff"/></svg>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#gradient)" />
+  
+  <!-- Link icon -->
+  <g transform="translate(32, 32)">
+    <path d="M15.6 48c0-6.84 5.56-12.4 12.4-12.4h16V28H28c-11.04 0-20 8.96-20 20s8.96 20 20 20h16v-7.6H28c-6.84 0-12.4-5.56-12.4-12.4zM32 52h32v-8H32v8zm36-24h-16v7.6h16c6.84 0 12.4 5.56 12.4 12.4s-5.56 12.4-12.4 12.4h-16V68h16c11.04 0 20-8.96 20-20s-8.96-20-20-20z" 
+          fill="white" 
+          transform="scale(0.75) translate(8, 8)" />
+  </g>
+</svg>
