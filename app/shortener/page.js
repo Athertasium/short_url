@@ -151,7 +151,7 @@ const Shortener = () => {
                   value={preferredName}
                   onChange={(e) => setPreferredName(e.target.value.toLowerCase().replace(/[^a-z0-9-]/g, ''))}
                   placeholder="google"
-                  className="flex-1 px-6 py-4 text-lg text-gray-600 border-2 border-l-0 border-gray-200 rounded-r-xl focus:border-blue-500 focus:outline-none transition-colors duration-300"
+                  className="flex-1 px-6 py-4 text-lg text-gray-600 border-2  border-gray-200 rounded-r-xl focus:border-blue-500 focus:outline-none transition-colors duration-300"
                   required
                 />
               </div>
