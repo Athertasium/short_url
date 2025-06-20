@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 pt-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Header */}
+      
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -16,10 +16,10 @@ const AboutPage = () => {
           </h1>
         </div>
 
-        {/* Main Content */}
+       
         <div className="bg-white rounded-3xl shadow-2xl p-8 mb-8">
           <div className="text-center">
-            {/* Profile Section */}
+          
             <div className="mb-8">
             <Image
                 src="https://lh3.googleusercontent.com/a/ACg8ocIfqCWUWqd1sy33QPhK98nhNa1T4l1oOPh3hOcpXbAepyEWMA=s360-c-no"
@@ -93,7 +93,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        {/* Back to Home */}
+      
         <div className="text-center">
           <Link 
             href="/" 
