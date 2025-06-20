@@ -37,7 +37,7 @@ export async function POST(req) {
       return NextResponse.json({ error: 'This short name is already taken' }, { status: 409 });
     }
 
-    const shortUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/${preferredName}`;
+    const shortUrl = `${process.env.NEXT_PUBLIC_HOST}/${preferredName}`;
     const urlDocument = {
       originalUrl,
       preferredName,
