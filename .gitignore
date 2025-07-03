@@ -40,4 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/app/about/page.js
+# about page
+# This file is used to ignore the about page in the project.
+/app/about
