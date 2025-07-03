@@ -42,4 +42,5 @@ next-env.d.ts
 
 # about page
 # This file is used to ignore the about page in the project.
-/app/about
+/app/about/page.js
+# /app/about    
